@@ -9,30 +9,56 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-6">
+        <div class="col-12">
             <form action="">
                 <p class="bg-black text-center text-white fw-bold mt-2 pt-2 pb-2">Registration form </p>
-            <div class="mb-3">
+                <div class="row">
+                    <div class="col-6">
+                 <div class="mb-3">
                 <lable for="fname" class="form-label fw-bold">First Name :</lable>
                 <input type="text" name="" id="fname" class="form-control" placeholder=" Enter Your First Name">
-            </div>
-            <div class="mb-3">
+                </div>
+
+                </div>
+                <div class="col-6">
+                    <div class="mb-3">
                 <lable for="lname" class="form-label fw-bold">Last Name :</lable>
                 <input type="text" name="" id="lname" class="form-control" placeholder=" Enter Your Last Name">
             </div>
-            <div class="mb-3">
-                <lable for="fname" class="form-label fw-bold">Father Name :</lable>
-                <input type="text" name="" id="fname" class="form-control" placeholder=" Enter Your Father Name">
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                       <div class="mb-3">
+                <lable for="fname" class="form-label fw-bold">Father  Name :</lable>
+                <input type="text" name="" id="fname" class="form-control" placeholder=" Enter Your Father First Name">
             </div>  
-            <div class="mb-3">
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-3">
+                <lable for="lname" class="form-label fw-bold">Last Name :</lable>
+                <input type="text" name="" id="fname" class="form-control" placeholder=" Enter Your Father Last Name">
+            </div>  
+                </div>
+        
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                                <div class="mb-3">
                 <lable for="Email" class="form-label fw-bold">Email id :</lable>
                 <input type="email" name="" id="Email" class="form-control" placeholder=" Enter Your Email Name">
             </div>  
-            <div class="mb-3">
+                        </div>
+                        <div class="col-6">
+                     <div class="mb-3">
                 <lable for="password" class="form-label fw-bold">Password :</lable>
                 <input type="password" name="" id="password" class="form-control" placeholder=" Enter Your password">
-            </div>
-            <div class="mb-3">
+            </div>  
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                         <div class="mb-3">
                 <lable for="gender" class="form-label fw-bold">Gender :</lable>
                     <input type="radio" name="" id="gender" class="form-check-input" >
                     <label for="male" class="form-check-label">Male</label>
@@ -43,8 +69,9 @@
                     
         
             </div>
-
-            <div class="mb-3">
+                        </div>
+                        <div class="col-6">
+                            <div class="mb-3">
                 <label for="skill" class="form-label fw-bold">skill:</label>
                 <input type="checkbox" name="" id="skill" class="form-check-input">
                 <label for="Html" class="form-check-label">Html</label>
@@ -55,9 +82,33 @@
                 <input type="checkbox" name="" id="skill" class="form-check-input">
                 <label for="javascript" class="form-check-lebal">javascript</label>"
             </div>
-            <div class="mb-3">
+                        </div>
+                    </div>
+
+                <div class="row">
+                    <div class="col-4">
+                <div class="mb-3">
+                <label for="street" class="form-lebal fw-bold">Street:</label>
+                <select name="" id="street" class="form-select">
+                    <option value="">--select street--</option>
+
+                    <option value="Devkali">Devkali</option>
+                    <option value="kamhariya">kamhariya</option>
+                    <option value="katahan">katahan</option>
+                    <option value="Gurehtha">Gurehtha</option>
+                    <option value="Raghunathpur">Raghunathpur</option>
+                    <option value="Bongariya">Bongariya</option>
+                </select>
+
+            </div>
+
+                    </div>
+                    <div class="col-4">
+                        <div class="mb-3">
                 <label for="city" class="form-lebal fw-bold">City:</label>
                 <select name="" id="city" class="form-select">
+                    <option value="">--select city--</option>
+
                     <option value="Azamgarh">Azamgarh</option>
                     <option value="varanasi">varanasi</option>
                     <option value="Mirzapur">Mirzapur</option>
@@ -67,10 +118,58 @@
                 </select>
 
             </div>
-            <div class="mb-3">
+
+                    </div>
+                    <div class="col-4">
+                        <div class="mb-3">
+                <label for="state" class="form-lebal fw-bold">State:</label>
+                <select name="" id="state" class="form-select">
+                    <option value="">--select state--</option>
+
+                    <option value="Bihar">Bihar</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Himanchal Pradesh">Himanchal Pradesh</option>
+                    <option value="CG">CG</option>
+                    <option value="Gujrat">Gujrat</option>
+                </select>
+
+            </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                  <div class="mb-3">
                 <lable for="resume" class="form-label fw-bold">Upload Resume :</lable>
                 <input type="file" name="" id="resume" class="form-control" placeholder=" Upload Your Resume">
-            </div>        
+            </div>    
+                    </div>
+                    <div class="col-4">
+                         <div class="mb-3">
+                <lable for="adhar" class="form-label fw-bold">Upload Adhar :</lable>
+                <input type="file" name="" id="adhar" class="form-control" placeholder=" Upload Your Adhar">
+            </div>    
+                    </div>
+                    <div class="col"> <div class="mb-3">
+                <lable for="sign" class="form-label fw-bold">Upload signature:</lable>
+                <input type="file" name="" id="sign" class="form-control" placeholder=" Upload Your sign">
+            </div>    </div>
+                
+                </div>
+                    
+                    
+            
+                    
+    
+
+            
+
+            
+            
+
+            
+                           
             </form>
             
         </div>
